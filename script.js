@@ -11,7 +11,7 @@ function startSlider() {
   interval = setInterval(() => {
     currentSlide = (currentSlide + 1) % slides.length;
     sliderNav(currentSlide);
-  }, 5000);
+  }, 3000);
 }
 
 function stopSlider() {
